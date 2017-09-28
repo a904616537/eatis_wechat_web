@@ -1,0 +1,1240 @@
+*,:after,:before{
+	box-sizing : border-box;
+}
+a{
+	color : #333;
+}
+h2{
+	margin-bottom : 1rem;
+	font-family   : myFontBoldEN;
+}
+h3,h4{
+	font-family   : myFontBoldEN;
+}
+ul{
+	padding-left : 0px;
+}
+select{
+	border             : none;
+	appearance         : none;
+	-moz-appearance    : none;
+	-webkit-appearance : none;
+	background         : url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+	padding-right      : 14px;
+	outline            : none;
+	padding            : 0px 20px;
+	color              : #fff;
+	width              : 100%;
+	font-weight        : bold;
+	border-radius      : 0;
+}
+
+.ui.grid>*{
+	padding : 0px;
+}
+
+.btn {
+	cursor : pointer;
+}
+.imgbg{
+	width               : 100%;
+	height              : 100%;
+	background-size     : 100% auto;
+	background-repeat   : no-repeat;
+	background-position : center;
+	text-align          : center;
+	margin              : 0px 0px 10px;
+	position            : relative;
+}
+select ::-ms-expand { display: none; }
+.ui.segment{
+	box-shadow    : none;
+	border-radius : 0px;
+	border        : none;
+}
+.alignright{
+	text-align : right;
+} 
+.alignleft{
+	text-align : left;
+}
+.floatleft{
+	float : left;
+}
+.floatright {
+	float       : right;
+}
+.slide-fade-enter-active {
+	transition : all .2s ease;
+}
+.slide-fade-leave-active {
+	transition : all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-active {
+	transform : translateX(10px);
+	opacity   : 0;
+}
+.fade-enter-active, .fade-leave-active{
+	transition : all 0.5s ease;     
+}
+.fade-enter, .fade-leave-active{
+  opacity: 0 
+}
+
+
+/*date-time-picker*/
+.dateTime{
+	background-color : red;
+	background-color : #eee;
+	padding          : 0px 15px;
+	line-height      : 40px;
+}
+.vui-calendar-wrapper .tab-content{
+	background-color : #515765;
+	border-radius    : 8px;
+}
+.vui-calendar-header li,.vui-calendar-weekday li{
+	list-style : none;
+}
+
+
+/* logo */
+.logoImg{
+	width : 50px;
+}
+
+/*搜索*/
+.searchicon{
+	padding     : 7px 0px;
+	position    : relative;
+	z-index     : 99;
+	line-height :  30px;
+}
+.searchInput{
+	width            : 200px;
+	outline          : none;
+	border           : none;
+	line-height      : 30px;
+	border-radius    : 5px;
+	background-color : #fff;
+	position         : relative;
+	left             : 25px;
+	padding          : 0 10px;
+}
+.footer{
+	margin     : 0px 60px;
+	border-top : 1px solid #ccc;
+}
+.footer ul{
+	margin : 25px 0px;
+}
+.footer ul li{
+	list-style : none;
+	text-align : left;
+}
+.footer li i{
+	margin    : 5px auto; 
+	font-size : 30px;
+}
+.footer ul.contact{
+	float : right;
+}
+.navIcon{
+	width : 20px;
+}
+.navTip{
+	background-color : rgb(255,181,62);
+	border-radius    : 20px;
+	width            : 20px;
+	height           : 20px;
+	top              : 0px;
+	right            : 15px;
+	display          : table;
+	position         : absolute;
+}
+.navTip span{
+	display        : table-cell;
+	vertical-align : middle;
+	color          : #fff;
+	font-size      : 12px;
+	font-weight    : bold;
+}
+
+.navTips{
+	background-color : rgb(255,181,62);
+	border-radius    : 20px;
+	width            : 20px;
+	height           : 20px;
+	display          : table;
+	float            : left;
+}
+.navTips span{
+	display          : table-cell;
+	vertical-align   : middle;
+	color            : #fff;
+	font-size        : 12px;
+	font-weight      : bold;
+	text-align       : center;
+	background-color : rgb(29, 137, 250);
+	border-radius    : 50%;
+}
+
+/* index */
+.home .main{
+	background      : url('/static/images/01.png') top center no-repeat;
+	background-size : 100% auto;
+	padding-bottom  : 40px;
+}
+.nav{
+	background-color : rgb(255, 181,63);
+	padding          : 10px 20px 7px;
+}
+.nav:after{
+	clear   : both;
+	display : table;
+	content : '';
+	height  : 0;
+}
+.intro{
+	padding : 20px;
+	margin  : 0 auto;
+}
+.intro p{
+	font-size   : 14px;
+	word-break  : break-word;
+	overflow    : hidden;
+	white-space : wrap;
+}
+.home .about{
+	background-color : #eee;
+	padding          : 120px 0px;
+	font-size        : 3em;
+	margin-bottom    : 40px;
+	color            : yellow;
+}
+.home .three.column{
+	padding : 50px 60px;
+}
+.home .three.column h2{
+	line-height : 350px;
+	font-size: 34px;
+}
+.home .three.column i{
+	font-size : 30px;
+	color     :#fff;
+	position: absolute;
+	right: 20px;
+	bottom : 20px;
+}
+.home .tip{
+	margin      : 0px auto;
+	max-width   : 700px;
+	font-size   : 24px;
+	padding     : 0 50px 50px;
+	word-break  : break-word;
+	overflow    : hidden;
+	white-space : wrap;
+}
+
+
+/* 注册和登录 */
+.sign-in{
+	background-color : rgba(255,255,255,.5);
+	float            : left;
+	width            : 100%;
+	height           : 100%;
+	z-index          : 99;
+	position         : fixed;
+	top              : 0;
+	left             : 0;
+}
+.sign-in:after{
+	display  : block;
+	overflow : hidden;
+	content  : " ";
+	clear    :  both;
+}
+.sign-in .card{
+	background      : #fff url(/static/images/card.png) top center no-repeat;
+	background-size : auto 100%;
+	margin          : 5rem 1rem 0;
+	padding         : 40px 0px;
+	border-radius   : 10px;
+	box-shadow      : 7px 7px 10px #999;
+}
+.sign-in .card h2{
+	color : blue;
+}
+.sign-in .inputType{
+	display          : block;
+	border           : none;
+	background-color : #eee;
+	width            : 360px;
+	line-height      : 50px;
+	padding          : 0 15px;
+	outline          : none;
+	margin-bottom    : 15px;
+}
+.sign-in .row{
+	margin : 0px 30px;
+}
+.sign-in .column{
+	border-bottom : 1px solid #333;
+}
+.sign-in .loginBtn{
+	background-color : rgb(0,129,255);
+	width            : 83vw;
+	line-height      : 50px;
+	font-size        : 18px;
+	border-radius    : .25rem;
+	color            : #fff;
+	margin-top       : 40px;
+	font-weight      : bold;
+}
+.sign-in .wechatBtn{
+	background-color :  rgb(0,169,78);
+	width            : 360px;
+	line-height      : 50px;
+	font-size        : 18px;
+	border-radius    : .25rem;
+	color            : #fff;
+	margin-top       : 13px;
+	font-weight      : bold;
+}
+.sign-in .column i{
+	color     : rgb(0,169,78);
+	font-size : 100px;
+	margin    : 21px 0;
+}
+.sign-in .checkbox{
+	margin : 10px 0 20px 45px;
+}
+.sign-in .forget{
+	text-align : left;
+}
+.sign-in .foot{
+	line-height : 50px;
+	font-weight : bold;
+}
+.sign-in .create{
+	background-color : rgb(201,0,139);
+	color            : #fff;
+	border-radius    : .25rem;
+	display          : inline-block;
+	line-height      : 50px;
+	padding          : 0 50px;
+	margin-left      : 20px;
+	font-size        : 18px;
+}
+/* 注册页面 */
+.sign-in .card:last-child{
+	background      : #fff url(/static/images/card.png) top center no-repeat;
+	background-size : 100% 100%;
+}
+.sign-in .card:last-child .inputType{
+	width         : 100%;
+	margin-bottom : 20px;
+}
+.sign-in .card:last-child .inner{
+	margin : 0px 60px;
+}
+.sign-in .card:last-child .foot p{
+	margin-top : 14px;
+}
+.sign-in .card:last-child .create{
+	width   : 360px;
+	display : block;
+	margin  : 0 auto;
+}
+.sign-in .card:last-child .wechatBtn{
+	margin : 0 auto;
+}
+
+
+/* 订阅介绍 */
+.subscribe .button{
+	margin           : 40px 0px;
+	font-size        : 22px;
+	padding          : .78571429em 5.9em;
+	background-color : rgb(0,129,255);
+	color            : #fff;
+}
+.subscribe .main{
+	background      : url(/static/images/02.png) top center no-repeat;
+	background-size : 100% auto;
+}
+.subscribe .innerBox{
+	padding : 1rem;
+}
+.subscribe .innerBox p{
+	margin : 0;
+}
+.subscribe .subBox{
+	padding : 0px 255px 40px;
+}
+.subscribe .subBox h2{
+	line-height : 350px;
+	font-size   : 34px;
+}
+.subscribe .subBox i{
+	font-size : 30px;
+	color     : #fff;
+	position  : absolute;
+	right     : 20px;
+	bottom    : 20px;
+}
+
+
+/* 订阅选择 */
+.banner .slog{
+	font-size     : 38px;
+	margin        : 0px;
+	margin-bottom : 20px;
+}
+.subscribebox .banner{
+	background-color : #ccc;
+	padding          : 120px 0px;
+}
+.subscribebox{
+	background      : url('/static/images/03.png') top center no-repeat;
+	background-size : 100% auto;
+	margin          : 0 20px;
+}
+.subscribebox .main{
+	padding : 1rem 0px 5rem;
+}
+.subscribebox .mainTitle{
+	margin-bottom : 30px;
+}
+.subBox .btn{
+	display      : inline-block;
+	margin-right : 10px;
+}
+.subBox .btn:last-child{
+	margin-right: 0px;
+}	
+.subBox .item{
+	padding  : 45px 0px;
+	position : relative;
+	width : 30vw;
+}
+.subBox h2{
+	font-size : 4.5vw;
+	color     : #fff;
+	margin    : 0px;
+	display   : block;
+	padding   : 0px 20.3px;
+}
+.subBox i{
+	font-size : 15px;
+	color     : #fff;
+	position  : absolute;
+	right     : 10px;
+	bottom    : 10px;
+}
+.subscribebox .dropshow{
+	background-color : #fff;
+	margin           : 5rem 1rem;
+	padding-top      : 1rem;
+	border           : 0.5px solid #ccc;
+	box-shadow       : 5px 5px 5px #ccc;
+	position         : relative;
+	width            : 92vw;
+	overflow         : auto;
+	padding-bottom   : 20px;
+}
+.subscribebox .dropshow .close{
+	position         : absolute;
+	right            : .5rem;
+	top              : .5rem;
+	color            : rgb(70,200,190);
+	font-size        : 1.5rem;
+	z-index          : 1000;
+	background-color : #fff;
+	border-radius    : 50%;
+}
+.subscribebox .menu{
+	border-radius : .25em;
+	border        : none;
+	width         : 100%;
+	box-shadow    : none;
+}
+.subscribebox .right{
+	text-align : left;
+}
+.subscribebox .dropshow span{
+	font-size : 18px;
+}
+.subscribebox .itemBox{
+	text-align : left;
+}
+.subscribebox .itemBox img{
+	width : 100%;
+}
+.subscribebox .itemBox .itemTitle{
+	font-weight: bold;
+	line-height: 22px;
+} 
+
+
+/* 赠送礼物 */
+.gift{
+	background      : url('/static/images/04.png') top center no-repeat;
+	background-size : 100% auto;
+	margin          : 0px;
+	font-family     : myFontEN,myFontCH;
+}
+.gift .banner{
+	background-color: #ccc;
+    padding: 75px 0px;
+    background-size: cover;
+}
+.gift .column{
+	padding : 0px 60px 40px;
+}
+.gift .monthBox h2{
+	line-height : 100px;
+}
+.gift .segment{
+	padding          : 30px 0px;
+	background-color : #eee;
+	border           : none;
+}
+.gift .button{
+	float         : right;
+	margin-right  : 50px;
+	margin-bottom : 40px;
+	font-size     : 22px;
+	padding       : .78571429em 5.6em;
+	background    : rgb(0,129,255);
+	color         : #fff;
+	width         : 500px;
+}
+.gift .three.row{
+	margin: 0px 20px;
+}
+
+
+
+/*商城*/
+.shop .subnav{
+	display          : block;
+	height           : 40px;
+	background-color : rgb(253,219,55);
+}
+.shop .subnav .nav{
+	background-color : rgb(236,236,236);
+}
+.shop .subnav .ui{
+	margin  : 0;
+	padding : 0;
+} 
+.shop .main{
+	text-align : left;
+	padding    : 0 1rem 1rem;
+}
+.shop .main .bottom{
+	background-color : #e4e4e4;
+	line-height      : 30px;
+	text-align       : center;
+}
+.shop .main .bottom button{
+	border           : none;
+	background-color : #e4e4e4;
+	color            : rgba(0,0,0,.87);
+	outline          : none;
+}
+
+.shop .collection{
+	padding          : 0 5px;
+	display          : inline-block;
+	border-right     : solid 1px #ccc;
+	border-left      : solid 1px #ccc;
+	color            : rgba(0,0,0,.3);
+	background-color : #e4e4e4;
+	text-align       : center;
+}
+.shop .collection:hover{
+	color : red;
+}
+.shop .collect{
+	color : red;
+}
+.shop .main span.num{
+	background-color : #fff;
+	display          : inline-block;
+	width            : 30px;
+	line-height      : 36px;
+	text-align       : center;
+}
+.shop .main p{
+	margin : 0.5rem 0;
+}
+.shop .line {
+	display : inline-block;
+	width   : 50px;
+}
+.shop .inner {
+	/*height : 234px;*/
+	height : 70vw;
+}
+.shop .inner img{
+	width  : 100%;
+	height : 46vw;
+}
+.shop .main .addToCard{
+	display    : inline-block;
+	width      : 16vw;
+	text-align : center;
+}
+.shoplist{
+}
+.shoplist .inner .ui.grid{
+	padding : 14px 14px 0;
+}
+.shoplist .two{
+	margin-top : 10px;
+	padding    : 0px 5px;
+	padding-bottom: 70px;
+}
+.shoplist .ui.grid>.column:not(.row),.shoplist .ui.grid>.row>.column{
+	padding-left   : 5px;
+	padding-right  : 5px;
+	padding-top    : 5px;
+	padding-bottom : 10px;
+}
+.shoplist .label{
+	margin    : 3px 0px;
+	font-size : 12px;
+}
+.shoplist .rating{
+	text-align  : right;
+	line-height : 14px;
+}
+.shoplist .rating i{
+	font-size : 10px;
+}
+.shoplist .title{
+	font-size   : 12px;
+	height      : 54px;
+	font-family : myFontBoldEN,myFontBoldEN;
+}
+
+
+/* 商品简介 */
+.product .back{
+	text-align : left;
+	cursor     : pointer;
+	margin     : 1rem 0 1rem 1rem;
+}
+.product .main{
+	text-align : left;
+	padding    : 0;
+}
+.product i.fa-star{
+	margin-right : 3px;
+}
+.product .main h4{
+	font-family : myFontBoldEN,myFontBoldEN;
+	margin      : 0;
+}
+.product .button{
+	background-color : rgb(0,129,255);
+	width            : 350px;
+	border-radius    : 3px;
+	margin           : 1rem auto;
+}
+.product .button .addCollect{
+	width        : 50px;
+	line-height  : 50px;
+	border-right : 1px solid #ddd;
+}
+.product .button .total{
+	background-color : rgb(228,244,255);
+	color            : #999;
+	display          : inline-block;
+	padding          : 2px 0 4px;
+	width            : 50px;
+	line-height      : 50px;
+	text-align       : center;
+	font-size        : 16px;
+}
+.product button{
+	background-color : rgb(0,129,255);
+	border           : none;
+	color            : #fff;
+	padding          : 3px 10px;
+	outline          : none;
+	border-radius    : 3px;
+	width            : 50px;
+}
+.product .text{
+	font-size : 14px;
+}
+.product .button .addToCard{
+	background-color : rgb(0,129,255);
+	line-height      : 56px;
+	color            : #fff;
+	font-weight      : bold;
+	display          : inline-block;
+	width            : 35vw;
+	text-align       : center;
+	border-left      : 20px solid #fff;
+}
+.product .swiper{
+	margin-bottom : 40px;
+}
+.product .infor{
+	text-align : left;
+	margin     : 1rem 0;
+}
+.product .infor .row:last-child{
+}
+.product .infor h4{
+	border-bottom : 2px solid rgb(93,144,255);
+}
+.product .infor h4 i{
+	font-size: 1.5rem;
+}
+.product .infor .ten.wide,.product .infor .six.wide{
+	padding   : 3px 1rem;
+	font-size : 12px;
+}
+.product .infor .rateTitle{
+	font-weight : bold;
+}
+.product .infor .rateText{
+	line-height : 30px;
+	font-size   : 18px;
+}
+.product .infor .two.wide{
+	line-height : 33px; 
+}
+.product .infor .supImg{
+	width      : 50%;
+	height     : 100px;
+	margin     : 20px 25% 0;
+	text-align : center;
+}
+
+
+/* 购物车 */
+.cart .head,.info .head,.payment .head{
+	font-size   : 38px;
+	line-height : 100px;
+	color       : rgb(0,129,255);
+}
+.cart .ui.steps,.info .ui.steps,.payment .ui.steps{
+	width         : 100%;
+	border        : none;
+	margin        : 0px;
+}
+.cart .main p{
+	margin-top  : 14px;
+	font-weight : bold;
+	font-size   : 14px;
+}
+.cart .ui.steps .step.active .title,.info .ui.steps .step.active .title,.payment .ui.steps .step.active .title{
+	color : #fff;
+}
+.cart .ui.steps .step.active span{
+	background-color : #fff;
+	color            : rgb(0,129,255);
+	font-weight      : bold;
+	font-size        : 16px;
+	margin-right     : 10px;
+	padding          : 0px 6px;
+	border-radius    : 10px;
+}
+.cart .ui.steps .step.active .shopping,.info .ui.steps .step.active .shopping,.payment .ui.steps .step.active{
+	color       : #fff;
+	font-weight : bold;
+	font-size   : 16px;
+}
+.cart .ui.steps .step:after,.info .ui.steps .step:after,.payment .ui.steps .step:after{
+	width  : 40px;
+	height : 40px;
+	border : none;
+}
+.payment .ui.steps .stepTwo:after{
+	background-color : #eee;
+}
+.cart .ui.steps .step.active{
+	background-color : rgb(0,129,255);
+	border           : none;
+}
+.cart .ui.steps .step.active:after{
+	background-color : rgb(0,129,255);
+}
+.info .ui.steps .step.active span{
+	background-color : #fff;
+	color            : rgb(0,208,194);
+	font-weight      : bold;
+	font-size        : 16px;
+	margin-right     : 10px;
+	padding          : 0px 6px;
+	border-radius    : 10px;
+}
+.info .ui.steps .step.active{
+	background-color : rgb(0,208,194);
+	border           : none;
+}
+.info .ui.steps .step.active:after{
+	background-color : rgb(0,208,194);
+}
+.payment .ui.steps .step.active{
+	background-color : rgb(155,71,255);
+	border           : none;
+}
+.payment .ui.steps .step.active span{
+	background-color : #fff;
+	color            : rgb(155,71,255);
+	font-weight      : bold;
+	font-size        : 16px;
+	margin-right     : 10px;
+	padding          : 0px 6px;
+	border-radius    : 10px;
+}
+.cart .main,.info .main,.payment .main{
+	padding    : 0 20px;
+	text-align : left;
+	padding-bottom: 100px;
+}
+.cart .main .inforTitle{
+	border-bottom : 2px solid #333;
+	text-align    : center;
+	font-size     : 12px;
+	margin-top    : 14px;
+	height        : 30px;
+}
+.cart .main .wide.column{
+	padding : 0px;
+}
+.cart .main .cartline{
+	border-bottom : 1px solid #ccc;
+}
+.cart h6{
+	margin     : 0;
+	margin-top : 14px;
+	color      : blue;
+}
+.cart .main .cartList{
+	padding-bottom: 20px;
+}
+.cart .main .cartline{
+	padding-top: 25px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+.cart .main .cartline .five.column{
+	text-align : center;
+}
+.cart .main .cartline img{
+	width       : 50px;
+	margin-left : 30px;
+}
+.cart .main .cartline p{
+	margin      : 0px;
+	font-size   : 12px;
+	font-weight : normal;
+	overflow    : hidden;
+}
+.cart .ui.two .column,.cart .ui.right.aligned{
+	padding-bottom : 0px;
+	margin-top     : 0px;
+}
+.cart .main .num{
+	margin-left : -14px;
+}
+.cart .main .num>.span{
+	background-color : #eee;
+}
+.cart .main .num span {
+	padding          : 2px 5px;
+}
+.cart .cartList .wide{
+	height    : 50px;
+	font-size : 12px;
+}
+.cart .totalPrice{
+	font-size  : 24px;
+	margin     : 40px 0px;
+	text-align : right;
+}
+.cart .aligned .ui.segment{
+	color         : #fff;
+	border        : none;
+	box-shadow    : none;
+	font-weight   : bold;
+	margin-bottom : 40px;
+}
+.cart .aligned i{
+	font-size   : 18px;
+	margin      : 0px 10px;
+	font-weight : bold;
+}
+
+
+/* info */
+.info #area select{
+	width            : 32.6%;
+	margin-top       : 14px;
+	background-color : #eee;
+	border           : none;
+	border-radius    : 0px;
+}
+.info .moreAdrs{
+	background-color : #eee;
+	color            : #999;
+	padding          : 10px 15px;
+	width            : 100%;
+	border-radius    : 0;
+}
+.info input.inputType{
+	display          : block;
+	border           : none;
+	outline          : none;
+	padding          : 0px 15px;
+	width            : 100%;
+	line-height      : 40px;
+	margin           : 15px 0;
+	background-color : #eee;
+	border-radius    : 0px;
+}
+.info .aligned .ui.segment{
+	color         : #fff;
+	border        : none;
+	box-shadow    : none;
+	font-weight   : bold;
+	margin-bottom : 40px;
+}
+.info .aligned i{
+	font-size   : 18px;
+	margin      : 0px 10px;
+	font-weight : bold;
+}
+.info .sixteen p{
+	border-bottom : 1px solid #333;
+	font-weight   : 500;
+	line-height   : 40px;
+	font-size     : 16px;
+}
+.info .inputNote{
+	height           : 100px;
+	width            : 100%;
+	background-color : #eee;
+	border           : none;
+	padding          : 15px;
+	outline          : none;
+	margin-bottom    : 40px;
+	margin-top       : 10px;
+}
+.info .ProvCitySelectedTop {
+	position : absolute;
+	bottom   : 90px;
+}
+.info .ProvCitySelectedBottom {
+	position : absolute;
+	bottom   : 130px;
+}
+
+/*wechat info*/
+.info .main{
+	margin-top: 14px;
+	padding-bottom: 35px;
+}
+.info .stepWe{
+	background-color : rgb(0,208,194);
+	padding          : 20px 0px;
+}
+.info .stepWe .num{
+	color            : rgb(0,208,194);
+	background-color : #fff;
+	border-radius    : 100px;
+	padding          : 2px 7px;
+	font-weight      : bold;
+	margin-right     : 15px;
+}
+.info .stepWe .title{
+	color       : #fff;
+	font-weight : bold;
+	font-size   : 16px;
+	position: relative;
+	top: 2px;
+}
+.info .sixteen.wide:last-child{
+	margin-top : -42px;
+}
+
+
+/* payment */
+.payment .subtitle{
+	font-size     : 14px;
+	font-weight   : bold;
+	margin-top    : 14px;
+}
+.payment .main .wide{
+	font-size : 12px;
+}
+.payment .main .rowContent .wide{
+	line-height : 30px;
+}
+.payment .main .ui.grid>.rowContent{
+	padding : 5px;
+}
+.payment .main .rowTitle{
+	font-weight : bold;
+	font-size   : 12px;
+}
+.payment .main .rowTitle .column{
+	border-bottom  : 2px solid #333;
+	padding-bottom : 5px;
+	font-weight    : bold;
+}
+.payment .rowContent{
+	font-size : 18px;
+}
+.payment .code .ui.grid{
+	margin-top : 10px;
+}
+.payment .code input{
+	background-color : #eee;
+	border           : none;
+	outline          : none;
+	line-height      : 30px;
+	padding-left     : 10px;
+	width            : 100%;
+}
+.payment .code .nine.wide{
+	padding      : 0;
+	text-align   : center;
+	padding-left : 14px;
+}
+.payment .code .seven.wide{
+	padding       : 0;
+	text-align    : center;
+	padding-right : 14px;
+}
+.payment .applyBtn{
+	background-color : rgb(255,181,63);
+	display          : inline-block;
+	font-weight      : bold;
+	color            : #fff;
+	line-height      : 32px;
+	width            : 100%;
+}
+.payment .Total{
+	background-color : rgb(255,240,220);
+	margin           : 30px 0px 10px;
+	font-size        : 14px;
+	line-height      : 40px;
+	padding          : 0px 20px;
+	border-top       : 1px solid #ccc;
+	border-bottom    : 1px solid #ccc;
+	font-weight      : bold;  
+}
+.payment .Total .right{
+	display : inline-block;
+	float   : right;
+}
+.payment .choosePay{
+	float            : right;
+	background-color : #238E23;
+	color            : #fff;
+	padding          : 10px 20px;
+	outline          : none;
+}
+.payment .choosePay i{
+	margin-right : 5px;
+}
+.payment .ui.grid span{
+	margin-right: 5px;
+}
+
+
+
+/* about us */
+.about .banner{
+	background-color : #fff;
+	padding          : 120px 0px;
+}
+.about .text{
+	padding : 100px 50px;
+}
+.about .text p{
+	display     : inline-block;
+	padding     : 10px 50px;
+	line-height : 30px;
+	font-size   : 18px;
+}
+.about .column.img{
+	background-color: #fff;
+}
+.about .ui.grid>.row{
+	padding : 0;
+}
+.about .content{
+	margin-bottom : 60px;
+}
+
+
+/* rating */
+.rating {
+	text-align : left;
+	padding : 0px 20px;
+}
+.rating img {
+	width        : 50px;
+	height       : 50px;
+	margin-right : 20px;
+	float        : left;
+}
+.rating .title {
+	padding          : 20px 0px 10px;
+	border-bottom    : 1px solid #ccc;
+	background-color : #fff;
+	font-size        : 16px;
+}
+.rating .title:after {
+	display : table;
+	content : '';
+	clear   : both;
+}
+.rating .title .info {
+	float : left;
+}
+.rating .title .fa-star {
+	color        : orange;
+	position     : relative;
+	bottom       : 8px;
+	font-size    : 20px;
+	margin-right : 20px;
+}
+.rating textarea {
+	width      : 100%;
+	height     : 100px;
+	outline    : none;
+	resize     : none;
+	overflow-y : hidden;
+	border     : none;
+}
+.rating .content{
+	border-bottom : 1px solid #ccc;
+	padding       : 10px 0px;
+	position      : relative;
+}
+.rating .addPic {
+	width  : 70px;
+	height : 70px;
+	border : 1px dashed #ccc;
+}
+.rating .addtext {
+	position  : absolute;
+	bottom    : 22px;
+	left      : 15px;
+	color     : #999;
+	font-size : 12px;
+}
+.rating .addtext i{
+	color       : #ccc;
+	margin-left : 15px;
+}
+.rating .card{
+	margin-top : 10px;
+}
+.rating .card .item {
+	padding : 10px 0px; 
+}
+.rating .item label{
+	width        : 70px;
+	margin-right : 10px;
+	font-size    : 14px;
+	display      : inline-block;
+}
+.rating .card i{
+	color        : orange;
+	font-size    : 20px;
+	margin-right : 15px;
+}
+.rating .sub {
+	background-color : rgb(0,129,255);
+	color            : #fff;
+	line-height      : 40px;
+	text-align       : center;
+	font-size        : 16px;
+	border-radius    : 3px;
+	margin-top       : 30px;
+}
+
+.modal {
+    display: flex;
+    overflow: hidden;
+    z-index: 1986;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+
+
+/* user */
+.user .userInfo{
+	background : #5f2c82;  
+	background : -webkit-linear-gradient(left, #49a09d, #5f2c82);
+	background : -o-linear-gradient(left, #49a09d, #5f2c82);
+	background : linear-gradient(to right, #49a09d, #5f2c82);  
+	padding    : 30px 20px;
+	font-size  : 12px;
+	text-align : left;
+}	
+.user .userInfo img{
+	width         : 80px;
+	height        : 80px;
+	display       : inline-block;
+	margin-right  : 10px;
+	border-radius : 50px;
+}
+.user .userInfo .info_img{
+	width         : 80px;
+	height        : 80px;
+	display       : inline-block;
+	margin-right  : 10px;
+	float : left;
+}
+.user .userInfo .info{
+	display : inline-block;
+	color   : #fff;
+}
+.user .userInfo .userName{
+	font-family : myFontBoldEN;
+	line-height : 30px;
+	font-size   : 16px;
+}
+.user .userInfo label{
+	width       : 60px;
+	display     : inline-block;
+	line-height : 20px;
+}
+.user .listItem{
+	border-bottom : 20px solid #f4f4f4;
+	margin        : 0px;
+	line-height   : 40px;
+	text-align    : left;
+	list-style    : none;
+}
+.user .listItem li{
+	padding       : 0 20px;
+	border-bottom : 1px solid #eee;
+}
+.user .listItem li:not(:last-child){
+	border-bottom : 1px solid #eee;
+}
+.user .listItem .fa{
+	font-size : 15px;
+	display   : inline-block;
+	width     : 25px;
+}
